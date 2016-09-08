@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700&subset=cyrillic');
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500)
+
+html {
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.olgakling {
+    background-image: url('../img/olgakling_1280.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+
+.mainMenu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+nav.nav {
+    background: rgba(228, 228, 228);
+    z-index: 99;
+}
+
+.main {
+    margin-top: 3em
+}
+
+h2 {
+    margin: 1em 0
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo, .logotop {
+    font-family: 'Vivaldi', serif;
+}
+
+.logo {
+    font-size: 6em;
+}
+
+.logotop {
+    font-size: 2em;
+    padding: 0 1em;
+}
