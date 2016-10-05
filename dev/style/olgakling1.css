@@ -1,0 +1,63 @@
+html {
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.content {
+    text-align: justify;
+    padding: 0 5%;
+}
+
+.column .title {
+    text-align: center;
+}
+
+.olgakling {
+    background-image: url('../img/olgakling_1280.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+
+.mainMenu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+nav.nav {
+    background: rgba(228, 228, 228);
+    z-index: 99;
+}
+
+.main {
+    margin-top: 3em
+}
+
+h2 {
+    margin: 1em 0
+}
+
+.table {
+    color: #141C3E;
+}
+
+.logo, .logotop, .title, .subtitle {
+    font-family: 'Poiret One', cursive;
+}
+
+.logo, .logotop, .title {
+    color: #DD5785;
+    text-transform: uppercase;
+}
+
+
+
+.logo {
+    font-size: 6em;
+}
+
+.logotop {
+    font-size: 2em;
+    padding: 0 1em;
+}
