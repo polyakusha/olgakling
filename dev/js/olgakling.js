@@ -45,6 +45,9 @@ $(document).ready(function() {
 
     $("#lightSlider7").lightSlider({
         item: 1,
+        loop: true,
+        adaptiveHeight: true,
+        currentPagerPosition: "right"
     });
 
     //меню
