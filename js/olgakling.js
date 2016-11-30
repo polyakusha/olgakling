@@ -44,10 +44,9 @@ $(document).ready(function() {
     });
 
     $("#lightSlider7").lightSlider({
-        item: 1,
+        item: 2,
         loop: true,
-        adaptiveHeight: true,
-        currentPagerPosition: "right"
+        adaptiveHeight:true
     });
 
     //меню
