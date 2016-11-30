@@ -46,7 +46,15 @@ $(document).ready(function() {
     $("#lightSlider7").lightSlider({
         item: 2,
         loop: true,
-        adaptiveHeight:true
+        adaptiveHeight:true,
+        responsive: [
+            {
+                breakpoint:800,
+                settings: {
+                    item:1
+                }
+            }
+        ]
     });
 
     //меню
