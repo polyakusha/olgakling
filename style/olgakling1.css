@@ -18,15 +18,7 @@ html {
 .olgakling {
     background-image: url('../img/olgakling_1280.jpg');
     background-repeat: no-repeat;
-<<<<<<< HEAD:style/olgakling1.css
-<<<<<<< HEAD:style/olgakling1.css
-    background-position: 75%;
-=======
-    background-position: 53%;
->>>>>>> dev:dev/style/olgakling1.css
-=======
     background-position: center;
->>>>>>> dev:dev/style/olgakling1.css
     background-size: cover
 }
 
