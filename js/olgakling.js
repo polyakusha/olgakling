@@ -47,7 +47,7 @@ $(document).ready(function() {
         item: 2,
         loop: true,
         adaptiveHeight:true,
-        responsive: [
+        responsive : [
             {
                 breakpoint:800,
                 settings: {
