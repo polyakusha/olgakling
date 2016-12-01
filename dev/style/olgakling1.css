@@ -7,12 +7,20 @@ html {
     padding: 0 5%;
 }
 
+.wearehere, .is-color {
+    color: #DD5785 !important;
+}
+
 .overflow {
     overflow: auto;
 }
 
 .column .title {
     text-align: center;
+}
+
+.timeline {
+    padding-top: 5em;
 }
 
 .olgakling {
