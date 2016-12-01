@@ -38,7 +38,7 @@
     <nav class="nav">
         <div class="nav-left">
             <p class="logotop">
-                <a class="nav-item" href="#main">
+                <a class="nav-item nav-scroll is-color" href="#main">
                     <it>Ольга Клинг</it>
                 </a>
             </p>
@@ -57,16 +57,16 @@
         </span>
 
         <div id="nav-menu" class="nav-right nav-menu">
-            <a class="nav-item" href="#timeline">
+            <a class="nav-item nav-scroll" href="#timeline">
                 Профессиональный путь
             </a>
-            <a class="nav-item" href="#gallery">
+            <a class="nav-item nav-scroll" href="#gallery">
                 Галлерея
             </a>
-            <a class="nav-item" href="#wedplan">
+            <a class="nav-item nav-scroll" href="#wedplan">
                 Свадебный план
             </a>
-            <a class="nav-item" href="#contacts">
+            <a class="nav-item nav-scroll" href="#contacts">
                 Контакты
             </a>
         </div>
@@ -90,21 +90,19 @@
 
     <!--second section-->
     <div id="timeline">
-        <section class="section">
+        <section class="section timeline">
             <div class="content">
                 <p>
-                    Ольга Клинг - профессиональная ведущая праздников. Образование в области культуры, более 35 лет на сцене, свободное владение немецким и русским языком. Персональный подход Ольги к проведению мероприятия сделает ваш праздник уникальным. Опыт работы на мероприятиях разного масштаба - от небольших семейных юбилеев на 20 человек до масштабных свадеб на 700 человек и городских мероприятий. Ольга чувствует себя на сцене как дома. Уже более 20 лет она живет со своей семьей в Клоппенбурге и готовится отметить 10-летие работы своего магазина свадебных платьев «Lady Charme». Ольга будет рада быть ведущей на вашем празднике.                 </p>
+                    Ольга Клинг - профессиональная ведущая праздников. Образование в области культуры, свободное владение немецким и русским языком. Персональный подход Ольги к проведению мероприятия сделает ваш праздник уникальным. Опыт работы на мероприятиях разного масштаба - от небольших семейных юбилеев на 20 человек до масштабных свадеб на 700 человек и городских мероприятий. Ольга чувствует себя на сцене как дома. Уже более 20 лет она живет со своей семьей в Клоппенбурге и готовится отметить 10-летие работы своего магазина свадебных платьев «Lady Charme». Ольга будет рада быть ведущей на вашем празднике.                 </p>
             </div>
             <div class="content">
                 <p class="title has-text-centered">Профессиональный путь</p>
                 <p class="subtitle has-text-centered">Карьера Ольги в датах и событиях</p>
             </div>
             <hr>
-            <!--@todo: добавить полоски здесь чтобы круто смотрелось-->
             <div class="columns is-vcentered">
                 <div class="column is-4">
                     <p class="title">2013 - ...</p>
-                    <!--<figure class="image is-3by2">-->
                     <ul id="lightSlider">
                         <li>
                             <img src="img/2013-3.jpg">
@@ -116,7 +114,6 @@
                             <img src="img/2013-1.jpg">
                         </li>
                     </ul>
-                    <!--</figure>-->
                 </div>
                 <div class="column">
                     <div class="content">
@@ -305,126 +302,117 @@
             <h2 class="title has-text-centered">Свадебный план</h2>
             <p class="subtitle has-text-centered">Вдохновение для вашего праздника</p>
             <hr>
-            <div class="overflow">
-                <table class="table">
+                <table class="table table is-striped">
                     <thead>
                     <tr>
-                        <th>Номер</th>
+                        <th class="is-hidden-touch">Номер</th>
                         <th>Действие</th>
-                        <th>Дополнительно</th>
+                        <th class="is-hidden-touch">Дополнительно</th>
                     </tr>
                     </thead>
-                    <tfoot>
-                    <tr>
-                        <th>Номер</th>
-                        <th>Действие</th>
-                        <th>Дополнительно</th>
-                    </tr>
-                    </tfoot>
                     <tbody>
                     <tr>
-                        <td>1</td>
+                        <td class="is-hidden-touch">1</td>
                         <td>Праздничная встреча молодоженов</td>
-                        <td></td>
+                        <td class="is-hidden-touch"></td>
                     </tr>
                     <tr>
-                        <td>2</td>
-                        <td>Молодожены входят в зал через «туннель любви»</td>
-                        <td>«Туннель» может быть из роз, шариков, и.т.п.</td>
+                        <td class="is-hidden-touch">2</td>
+                        <td>Молодожены входят в зал через «туннель любви»<span class="is-hidden-desktop"> - «Туннель» может быть из роз, шариков, и.т.п</span></td>
+                        <td class="is-hidden-touch">«Туннель» может быть из роз, шариков, и.т.п.</td>
                     </tr>
                     <tr>
-                        <td>3</td>
+                        <td class="is-hidden-touch">3</td>
                         <td>Поздравления</td>
-                        <td></td>
+                        <td class="is-hidden-touch"></td>
                     </tr>
                     <tr>
-                        <td>4</td>
+                        <td class="is-hidden-touch">4</td>
                         <td>Открытие свадьбы со «свадебной ракетой»</td>
-                        <td></td>
+                        <td class="is-hidden-touch"></td>
                     </tr>
                     <tr>
-                        <td>5</td>
+                        <td class="is-hidden-touch">5</td>
                         <td>Первый тост молодоженам</td>
-                        <td></td>
+                        <td class="is-hidden-touch"></td>
                     </tr>
                     <tr>
-                        <td>6</td>
-                        <td>Вынос свадебного супа.</td>
-                        <td>Костюм шеф-повара</td>
+                        <td class="is-hidden-touch">6</td>
+                        <td>Вынос свадебного супа<span class="is-hidden-desktop">: Костюм шеф-повара</span></td>
+                        <td class="is-hidden-touch">Костюм шеф-повара</td>
                     </tr>
                     <tr>
-                        <td>7</td>
+                        <td class="is-hidden-touch">7</td>
                         <td>Открытие свадебного буфета</td>
-                        <td></td>
+                        <td class="is-hidden-touch"></td>
                     </tr>
                     <tr>
-                        <td>8</td>
+                        <td class="is-hidden-touch">8</td>
                         <td>Второй тост за родителей молодоженов</td>
-                        <td></td>
+                        <td class="is-hidden-touch"></td>
                     </tr>
                     <tr>
-                        <td>9</td>
+                        <td class="is-hidden-touch">9</td>
                         <td>Семейная свеча </td>
-                        <td></td>
+                        <td class="is-hidden-touch"></td>
                     </tr>
                     <tr>
-                        <td>10</td>
+                        <td class="is-hidden-touch">10</td>
                         <td>Кража туфли</td>
-                        <td>Баба Яга, Пираты</td>
+                        <td class="is-hidden-touch">Баба Яга, Пираты</td>
                     </tr>
                     <tr>
-                        <td>11</td>
-                        <td>Первый танец молодоженов</td>
-                        <td>Если вы не определились с танцем или песней - Ольга может вам помочь</td>
+                        <td class="is-hidden-touch">11</td>
+                        <td>Первый танец молодоженов<span class="is-hidden-desktop">. Если вы не определились с танцем или песней - Ольга может вам помочь</span></td>
+                        <td class="is-hidden-touch">Если вы не определились с танцем или песней - Ольга может вам помочь</td>
                     </tr>
                     <tr>
-                        <td>12</td>
+                        <td class="is-hidden-touch">12</td>
                         <td>Сюрприз для невесты</td>
-                        <td></td>
+                        <td class="is-hidden-touch"></td>
                     </tr>
                     <tr>
-                        <td>13</td>
-                        <td>Кража невесты</td>
-                        <td>Полицейские, Пираты, Гномы</td>
+                        <td class="is-hidden-touch">13</td>
+                        <td>Кража невесты<span class="is-hidden-desktop">: Полицейские, Пираты, Гномы</span></td>
+                        <td class="is-hidden-touch">Полицейские, Пираты, Гномы</td>
                     </tr>
                     <tr>
-                        <td>14</td>
-                        <td>Хит-парад</td>
-                        <td>Майкл Джексон, Элвис Пресли, Мерлин Монро, Леди Гага, Кэти Перри, PSY, Комбинация, ABBA и.т.п.</td>
+                        <td class="is-hidden-touch">14</td>
+                        <td>Хит-парад<span class="is-hidden-desktop">: Майкл Джексон, Элвис Пресли, Мерлин Монро, Леди Гага, Кэти Перри, PSY, Комбинация, ABBA и.т.п.</span></td>
+                        <td class="is-hidden-touch">Майкл Джексон, Элвис Пресли, Мерлин Монро, Леди Гага, Кэти Перри, PSY, Комбинация, ABBA и.т.п.</td>
                     </tr>
                     <tr>
-                        <td>15</td>
-                        <td>Вынос торта с бенгальскими свечами</td>
-                        <td>Египетские фараоны, древние греки</td>
+                        <td class="is-hidden-touch">15</td>
+                        <td>Вынос торта с бенгальскими свечами<span class="is-hidden-desktop">Египетские фараоны, древние греки</span></td>
+                        <td class="is-hidden-touch">Египетские фараоны, древние греки</td>
                     </tr>
                     <tr>
-                        <td>16</td>
+                        <td class="is-hidden-touch">16</td>
                         <td>Снятие фаты в полночь</td>
-                        <td></td>
+                        <td class="is-hidden-touch"></td>
                     </tr>
                     <tr>
-                        <td>17</td>
+                        <td class="is-hidden-touch">17</td>
                         <td>Снятие подвязки невесты</td>
-                        <td></td>
+                        <td class="is-hidden-touch"></td>
                     </tr>
                     <tr>
-                        <td>18</td>
+                        <td class="is-hidden-touch">18</td>
                         <td>Танец под фатой</td>
-                        <td></td>
+                        <td class="is-hidden-touch"></td>
                     </tr>
                     <tr>
-                        <td>19</td>
+                        <td class="is-hidden-touch">19</td>
                         <td>Бросание букета невестой</td>
-                        <td></td>
+                        <td class="is-hidden-touch"></td>
                     </tr>
                     <tr>
-                        <td>Дополнительно</td>
-                        <td>Свадебная змейка, Креативные и разноцветные игры</td>
-                        <td></td>
+                        <td class="is-hidden-touch">Дополнительно</td>
+                        <td><span class="is-hidden-desktop">Дополнительно</span>Свадебная змейка, Креативные и разноцветные игры</td>
+                        <td class="is-hidden-touch"></td>
                     </tr>
                     </tbody>
                 </table>
-            </div>
         </section>
 
     </div>
@@ -436,9 +424,10 @@
                 <p class="subtitle has-text-centered">Как со мной связаться</p>
                 <hr>
                 <div class="content">
-                    <p><strong>Телефон:</strong></p>
-                    <p><strong>Почта:</strong> <a href="mailto:olga.kling.clp@gmail.com">olga.kling.clp@gmail.com</a></p>
-                    <p>Вы можете найти Ольгу в магазине <strong>"Lady Charme"</strong> по <strong>адресу</strong>: Cloppenburg, Loeninger</p>
+                    <p><strong>Телефон:</strong> <a href="tel:+4915771438265">+49 (0) 157 714382 65</a></p>
+                    <p><strong>E-mail:</strong> <a href="mailto:olga.kling.clp@gmail.com">olga.kling.clp@gmail.com</a></p>
+                    <p>Вы можете найти Ольгу в магазине <a href="http://www.ladycharme.de" target="_blank">"Lady Charme"</a>.</p>
+                    <p><strong>Адрес:</strong> 49661 Cloppenburg, Löninger Straße 26</p>
                 </div>
                 <hr>
             </div>
@@ -447,11 +436,13 @@
             <nav class="level is-mobile">
                 <div class="level-item has-text-centered">
                     <p class="heading">Проведено</p>
-                    <p class="title">1000 свадеб</p>
+                    <p class="title">1000+</p>
+                    <p class="title">свадеб</p>
                 </div>
                 <div class="level-item has-text-centered">
-                    <p class="heading">Побывала в </p>
-                    <p class="title">100 городах</p>
+                    <p class="heading">Побывала в</p>
+                    <p class="title">100+</p>
+                    <p class="title">городах</p>
                 </div>
             </nav>
         </section>
@@ -464,11 +455,11 @@
     <footer class="footer">
         <div class="container">
             <div class="content">
-                <p>&copy; Olga Kling, 2016. Urheberrecht/Leistungsschutzrecht
+                <p>&copy; Ольга Клинг, 2016. Urheberrecht/Leistungsschutzrecht
                     Die auf dieser Webseite veröffentlichten Inhalte, Werke und bereitgestellten Informationen unterliegen dem deutschen Urheberrecht und Leistungsschutzrecht. Jede Art der Vervielfältigung, Bearbeitung, Verbreitung, Einspeicherung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedarf der vorherigen schriftlichen Zustimmung des jeweiligen Rechteinhabers. Das unerlaubte Kopieren/Speichern der bereitgestellten Informationen auf diesen Webseiten ist nicht gestattet und strafbar.
                 </p>
                 <p class="has-text-centered">
-                    Made by <a href="http://www.sergeypoliakov.com">Sergey Poliakov</a>
+                    Сайт сделал <a href="http://www.sergeypoliakov.com">Сергей Поляков</a>
                 </p>
             </div>
         </div>

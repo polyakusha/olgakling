@@ -58,13 +58,13 @@ $(document).ready(function() {
     });
 
     //меню
-    $('.nav-item').click(function () {
+    $('.nav-scroll').click(function () {
+        $('.nav-scroll').removeClass('wearehere');
+        $(this).addClass('wearehere');
         var a_href = $(this).attr('href');
-
         $('html, body').animate({
             scrollTop: $(a_href).offset().top
         }, 2000);
-        console.log(a_href);
     });
 
     var $toggle = $('#nav-toggle');
