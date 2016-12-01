@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    //todo: сделать красивее код
     //image-sliders
     $("#lightSlider").lightSlider({
         item: 1,
